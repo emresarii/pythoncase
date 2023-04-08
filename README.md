@@ -10,12 +10,17 @@ This API provides a simple RESTful web service for managing a list of persons. T
   git clone https://github.com/emresarii/pythoncase
 ```
 
-2- Install the required dependencies:
+2- Change directory to the API directory 
+```bash
+  cd pythoncase/PersonApi
+```
+
+3- Install the required dependencies:
 ```bash
   pip install flask==2.0
 ```
 
-3- Run the application
+4- Run the application
 
 ```bash
   python restPerson.py
@@ -45,3 +50,14 @@ The API provides the following endpoint:
 
 **Person's "phone" parameter is excluded from response model**
 
+
+# Error Handling
+The API returns appropriate HTTP status codes for both successful and failed requests. JSON-encoded responses are returned for both successful and failed requests.
+
+The API uses the following error codes:
+
+- `400 Bad Request` if there is a problem with the request.
+- `404 Not Found` if the requested resource does not exist.
+- `500 Internal Server Error` for any internal server errors.
+
+In the case of an error, the response body will contain an `error` field with a description of the problem.
