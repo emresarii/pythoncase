@@ -12,7 +12,7 @@ This API provides a simple RESTful web service for managing a list of persons. T
 
 2- Change directory to the API directory 
 ```bash
-  cd pythoncase/PersonApi
+  cd pythoncase/PersonsApi
 ```
 
 3- Install the required dependencies:
