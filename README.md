@@ -7,7 +7,7 @@ This API provides a simple RESTful web service for managing a list of persons. T
 
 1- Clone this repository:
 ```bash
-  git clone <repository-url>
+  git clone https://github.com/emresarii/pythoncase
 ```
 
 2- Install the required dependencies:
